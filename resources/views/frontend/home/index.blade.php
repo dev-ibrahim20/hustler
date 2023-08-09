@@ -14,7 +14,7 @@
             <img src="{{asset('frontend/images/1.png')}}" class="d-block w-100" alt="...">
           </div>
           <section>
-          <div class="main" style="position: relative">
+          <div class="main" >
                 <div class="text" style="position: relative">
                     <h2>Summer '23 collection<br><span>Upgrade your casual game</span></h2>
                     <h3>Shop the latest streetwear trends</h3>
@@ -26,7 +26,7 @@
     </div>
     <!-- End Section Hunstler -->
     <!-- Start Section T_shirt -->
-    <section class="cards" id="services" style="margin-top: 20px">
+    <section class="cards" id="services">
         <h2 class="title">FEATURED PRODUCTS</h2>
         <div class="content">
             @foreach($data as $da)
