@@ -588,8 +588,8 @@ select, input {
     max-width: 1380px;
     margin: auto;
     height: inherit;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
 }
 .child {
     margin-bottom: 20px;

@@ -2,7 +2,7 @@
 
 @section('content')
 <section>
-    <div class="small-container single-product">
+    <div class="small-container single-product" style="padding: 0px">
         <div class="child">
             <div class="halfchild">
                 <img src="{{asset('frontend/images/product/'.$data->image)}}" width="550px" height="500px" id="prodImg"><br><br>
