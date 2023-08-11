@@ -39,6 +39,7 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin', 'middleware' => 'auth
 
     // Contact Route
     Route::get('/home/contact', 'HomeController@contact')->name('contact_admin');
+    Route::get('/home/contact/delete/{id}', 'HomeController@delete')->name('delete_contact_admin');
 
     // product Route
     Route::get('/home/product',         'ProductController@index')->name('product_admin');

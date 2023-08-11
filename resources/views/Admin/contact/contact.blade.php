@@ -11,6 +11,7 @@
             <th scope="col">Email</th>
             <th scope="col">message</th>
             <th scope="col">Created_at</th>
+            <th scope="col">Control</th>
           </tr>
         </thead>
         <tbody>
@@ -22,6 +23,9 @@
                 <td>{{$con->email}}</td>
                 <td>{{$con->message}}</td>
                 <td>{{$con->created_at}}</td>
+                <td>
+                    <a href="{{url('home/product/delete/'.$con->id)}}"><button type="button" class="btn btn-success">Done</button></a>
+                </td>
             </tr>
             @endforeach
         </tbody>
